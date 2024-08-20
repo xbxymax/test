@@ -1,168 +1,123 @@
-[00:02:47]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option darkness = default to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option hunger = default to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option healthpenalty = always to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option temperaturedamage = default to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option spawnmode = fixed to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option shadowcreatures = default to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option ghostenabled = always to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option brightmarecreatures = default to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option lessdamagetaken = none to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = none to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
-[00:02:47]: [SyncWorldSettings] Resyncing master world option dropeverythingondespawn = default to secondary shards.	
-[00:02:51]: New incoming connection 127.0.0.1|55125 <875743480500834009>
-[00:02:51]: Client connected from [LAN] 127.0.0.1|55125 <875743480500834009>
-[00:02:51]: ValidateGameSessionToken GUID<875743480500834009>
-[00:02:52]: Client authenticated: (KU_iC59_hUb) 爹󰀫
-[00:02:52]: [Steam] Authenticated host '76561198829251496'
-[00:02:54]: There is no active event to validate against.
-[00:02:54]: [Shard] Read save location file for (KU_iC59_hUb)
-[00:04:03]: Resuming user: session/7E2F3656F9AA2F1E/A7LGO54VTDT5/0000000038
-[00:04:03]: [workshop-2189004162 (Insight)]:	listening for player validation	128849 - wolfgang	
-[00:04:03]: warning : ThePlayer.AnimState is already a table 	
-[00:04:03]: FWD_IN_PDT hook player AnimState finish	
-[00:04:03]: [workshop-2189004162 (Insight)]:	Insight Replica (table: 0000000093E3FB00 ~ [128849 - wolfgang]) added for 128849 - wolfgang	
-[00:04:03]: [workshop-2189004162 (Insight)]:	Added Insight component for	128849 - wolfgang	
-[00:04:03]: Could not find anim build hammer
-[00:04:03]: component tradable already exists on entity 128918 - !	../mods/workshop-3054476656/Key_Modules_Of_FWD_IN_PDT/13_time_pause_sys/02_all_com_update_hook.lua:14 in (method) AddComponent (Lua) <13-27>	
-[00:04:03]: 加载职业数据	table: 0000000092F98040	nil	
-[00:04:03]: Spawning player at: [Load] (518.34, 0.00, 928.46)	
-[00:04:03]: Enabling Spawn Protection for	128849 - wolfgang	
-[00:04:03]: Sim unpaused
-[00:04:03]: SuperWall: LoadLUA:../superwall_custom.lua	
-[00:04:03]: SuperWall: Custom file not found!	
-[00:04:03]: Invalid RPC sender: expected player, got userid	
-[00:04:03]: component timer already exists on entity 109594 - deerclops!	../mods/workshop-3054476656/Key_Modules_Of_FWD_IN_PDT/13_time_pause_sys/02_all_com_update_hook.lua:14 in (method) AddComponent (Lua) <13-27>	
-[00:04:03]: [workshop-2189004162 (Insight)]:	Master received shard initialization from:	1594931572	number	with world prefab:	cave	
-[00:04:03]: [workshop-2189004162 (Insight)]:	Setting SelectedCaveShard to	1594931572	
-[00:04:04]: [(KU_iC59_hUb) 爹󰀫] ReceiveRemoteExecute(		if BuildTagsStringCommon then
-			local oldBuildTagsStringCommon = BuildTagsStringCommon
-			BuildTagsStringCommon = function(tagsTable, ...)
-				if tagsTable then
-					table.insert(tagsTable, "Chinese++ Pro v4.9 @爹󰀫")
-				end
-				return oldBuildTagsStringCommon(tagsTable, ...)
-			end
-			if UpdateServerTagsString then
-				UpdateServerTagsString()
-				return DataDumper({done = true})
-			end
-		end
-		return DataDumper({done = false})) @(-7.12, 4.66)
-[00:04:05]: zxuserinit KU_iC59_hUb	
-[00:04:11]: Failed to spawn	daogui_colourfuldeerherd	
-[00:04:11]: Failed to spawn	daogui_colourfuldeerherd	
-[00:04:11]: Failed to spawn	daogui_colourfuldeerherd	
-[00:04:11]: Failed to spawn	daogui_colourfuldeerherd	
-[00:04:11]: Failed to spawn	daogui_colourfuldeerherd	
-[00:04:11]: Failed to spawn	daogui_colourfuldeerherd	
-[00:04:11]: Failed to spawn	daogui_colourfuldeerherd	
-[00:04:11]: Failed to spawn	daogui_colourfuldeerherd	
-[00:04:11]: [workshop-2189004162 (Insight)]:	ProcessConfiguration	128849 - wolfgang	
-[00:04:11]: [workshop-2189004162 (Insight)]:	Created player context for	128849 - wolfgang	
-[00:04:15]: RPC cross_archived_data.client2server	128849 - wolfgang	{"carl_spell_bar_pt":{"y":0.065277777777778,"x":0.116796875},"task_scrolls_num":88,"wellness_bars_screen_xy":{"y_percent":0.13194444444444,"x_percent":0.0328125},"DailyTaskFlag":20240806,"wellness_main_icon_hide_flag":false}	
-[00:04:15]: [workshop-2189004162 (Insight)]:	weather.OnUpdate has been replaced by: ../mods/workshop-3054476656/Key_Modules_Of_FWD_IN_PDT/13_time_pause_sys/02_all_com_update_hook.lua@18	
-[00:04:28]: Server Autopaused	
-[00:04:32]: Server Unpaused	
-[00:05:06]: Failed getting version check details
-[00:06:14]: Server Autopaused	
-[00:06:14]: Server Unpaused	
-[00:06:15]: Server Autopaused	
-[00:06:16]: Server Unpaused	
-[00:07:03]: Server Autopaused	
-[00:07:04]: Server Unpaused	
-[00:07:06]: Server Autopaused	
-[00:07:07]: Server Unpaused	
-[00:07:44]: Server Autopaused	
-[00:07:44]: Server Unpaused	
-[00:08:35]: Server Autopaused	
-[00:08:36]: Server Unpaused	
-[00:09:11]: [(KU_iC59_hUb) 爹󰀫] ReceiveRemoteExecute(local player = UserToPlayer('KU_iC59_hUb') if player == nil then UserToPlayer("KU_iC59_hUb").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 8) for k,obj in pairs(ents) do if obj.components and obj.components.follower ~= nil and player.components.leader ~= nil and player.components.leader:IsFollower(obj) then player.components.leader:RemoveFollower(obj) obj.components.follower.targettime = 0 end end) @(556.92, -362.03)
-[00:09:11]: [(KU_iC59_hUb) 爹󰀫] ReceiveRemoteExecute(local player = UserToPlayer('KU_iC59_hUb') if player == nil then UserToPlayer("KU_iC59_hUb").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 8) for k,obj in pairs(ents) do if obj.components and obj.components.follower ~= nil and player.components.leader ~= nil and player.components.leader:IsFollower(obj) then player.components.leader:RemoveFollower(obj) obj.components.follower.targettime = 0 end end) @(556.73, -361.82)
-[00:09:11]: [(KU_iC59_hUb) 爹󰀫] ReceiveRemoteExecute(local player = UserToPlayer('KU_iC59_hUb') if player == nil then UserToPlayer("KU_iC59_hUb").components.talker:Say("该玩家与你不在同一世界！命令无法生效。") end local x,y,z = player.Transform:GetWorldPosition() local ents = TheSim:FindEntities(x,y,z, 8) for k,obj in pairs(ents) do if obj.components and obj.components.follower ~= nil and player.components.leader ~= nil and player.components.leader:IsFollower(obj) then player.components.leader:RemoveFollower(obj) obj.components.follower.targettime = 0 end end) @(556.64, -361.70)
-[00:10:09]: Server Autopaused	
-[00:10:10]: Server Unpaused	
-[00:10:13]: component lootdropper already exists on entity 136029 - ghost!	../mods/workshop-3054476656/Key_Modules_Of_FWD_IN_PDT/13_time_pause_sys/02_all_com_update_hook.lua:14 in (method) AddComponent (Lua) <13-27>	
-[00:12:09]: Server Autopaused	
-[00:12:10]: Server Unpaused	
-[00:12:12]: Available disk space for save files: 187468 MB
-[00:12:12]: 保存职业数据		nil	
-[00:12:12]: Serializing user: session/7E2F3656F9AA2F1E/A7LGO54VTDT5/0000000038
-[00:12:12]: Missing reference:	100032 - world	->	105743	105743 - genesis_nyx_palace_leftroom_center	
-[00:12:12]: Missing reference:	100032 - world	->	105744	105744 - genesis_nyx_palace_rightroom_center	
-[00:12:12]: Missing reference:	100032 - world	->	105745	105745 - genesis_nyx_palace_center	
-[00:12:13]: Serializing world: session/7E2F3656F9AA2F1E/0000000038
-[00:12:33]: [string "scripts/components/finiteuses.lua"]:104: attempt to perform arithmetic on field 'total' (a nil value)
+22点01分 枝江
+[04:43:36]: [string "../mods/workshop-2992200942/scripts/prefabs..."]:838: attempt to index field 'combat' (a nil value)
 LUA ERROR stack traceback:
-scripts/components/finiteuses.lua:104 in (method) GetPercent (Lua) <103-105>
+../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed_cards.lua:838 in (field) target_after_fn (Lua) <833-843>
+   inst = 128226 - eileen_harrowed_cards(LIMBO) (valid:true)
+   attacker = 128085 - eileen (valid:true)
+   target = 238677 - um_bear_trap (valid:true)
+   value = 1
+   atk = 3.96396
+   spd = table: 0000000018CCE470
+../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed.lua:236 in (upvalue) target_after_fn (Lua) <233-239>
+   inst = 128226 - eileen_harrowed_cards(LIMBO) (valid:true)
+   attacker = 128085 - eileen (valid:true)
+   target = 238677 - um_bear_trap (valid:true)
+   cards = table: 00000000DEF08890
+   k = 4
+   v = zhijiang_cards_elec_7_lv1
+../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed.lua:480 in () ? (Lua) <447-526>
+   inst = 128226 - eileen_harrowed_cards(LIMBO) (valid:true)
+   attacker = 128085 - eileen (valid:true)
+   target = 238677 - um_bear_trap (valid:true)
+   draw_table = table: 00000000DEF08890
+   damage = 7.15
+   planar = 3.575
+   aligned_bouns = 1
+   cri_flag = true
+   cri_damage = 1
+=(tail call):-1 in ()  (tail) <-1--1>
+scripts/components/weapon.lua:94 in (method) GetDamage (Lua) <93-102>
    self =
-      onfinished = function - ../mods/workshop-2812783478/scripts/ms_postinits.lua:131
-      inst = 137608 - tentaclespike(LIMBO) (valid:true)
-      oldSetUsesFn_mandrake = function - ../mods/workshop-2039181790/postinit/components/finiteuses.lua:8
-      SetUses = function - ../mods/workshop-3138086996/scripts/mandrake_main.lua:275
-      ignorecombatdurabilityloss = false
-      _ = table: 000000007A7C54B0
-      consumption = table: 000000007A7C4240
-scripts/components/inventoryitem_replica.lua:218 in (method) SerializeUsage (Lua) <212-227>
-   self =
-      GetEquipRestrictedTag = function - ../mods/workshop-3285271503/scripts/main/extend_tags.lua:246
-      _isacidsizzling = net_bool (000000007A7C60E0)
-      SetEquipRestrictedTag = function - ../mods/workshop-3285271503/scripts/main/extend_tags.lua:36
-      GetDeployPlacerName = function - ../mods/workshop-1909182187/scripts/medal_hook.lua:2180
-      GetWalkSpeedMult = function - AddComponentPostInit("hunger",function(QKKks_zt)local Are7xU=QKKks_zt.DoDelta;function QKKks_zt:DoDelta(...)if QKKks_zt.myth_mooncake_nuts then return end;return Are7xU(QKKks_zt,...)end end)AddComponentPostInit("mightiness",function(yxjl)local ZG=yxjl.DoDelta;function yxjl:DoDelta(Vu0cCAf,...)if Vu0cCAf<0 and yxjl.inst:HasTag("movemountain_pill_buff")then return end;return ZG(yxjl,Vu0cCAf,...)end end)AddComponentPostInit("health",function(q)if not q.inst.components.myth_hassoul then q.inst:AddComponent("myth_hassoul")end end)local function pVRj(kP7O5)local lqT=kP7O5.Transform:GetRotation()return math.floor(lqT/90+0.5)*90 end;AddComponentPostInit("farmtiller",function(mP3mlD)local PrPyxMK=mP3mlD.Till function mP3mlD:Till(tczrIB,a,...)if mP3mlD.inst.prefab=="pigsy_rake"then local LB1Z=Point(TheWorld.Map:GetTileCenterPoint(tczrIB:Get()))local N9L=LB1Z-tczrIB;local hDc_M=Point((N9L.x+0.5)- (N9L.x+0.5)%1.333,0,(N9L.z+0.5)- (N9L.z+0.5)%1.333)tczrIB=LB1Z-hDc_M end;local wqU76o=PrPyxMK(mP3mlD,tczrIB,a,...)if wqU76o then if math.random()<0.05 then local qW0lRiD1=SpawnPrefab("myth_coin")qW0lRiD1.Transform:SetPosition(tczrIB:Get())if qW0lRiD1.components.inventoryitem~=nil and qW0lRiD1.components.inventoryitem.ondropfn~=nil then qW0lRiD1.components.inventoryitem.ondropfn(qW0lRiD1)end end;if a and a.prefab=="pigsy"and a.components.hunger.current>=250 then mP3mlD.inst:DoTaskInTime(0.3,function()for iD1IUx=-90,90,180 do local JLCOx_ak=(pVRj(a)+iD1IUx)*DEGREES;local hPQ=tczrIB.x+1.34*math.cos(JLCOx_ak)local R1FIoQI=tczrIB.z-1.34*math.sin(JLCOx_ak)if TheWorld.Map:CanTillSoilAtPoint(hPQ,0,R1FIoQI,false)then TheWorld.Map:CollapseSoilAtPoint(hPQ,0,R1FIoQI,false)SpawnPrefab("farm_soil").Transform:SetPosition(hPQ,0,R1FIoQI)end end end)end end;return wqU76o end end) AddComponentPostInit("sanity",function(NsoTwDs)local HGli=NsoTwDs.DoDelta;function NsoTwDs:DoDelta(...)if NsoTwDs.myth_mooncake_ice and not NsoTwDs.yj_change then return end;return HGli(NsoTwDs,...)end;local iy=NsoTwDs.RecalculatePenalty;function NsoTwDs:RecalculatePenalty(...)local m6SCS0=false;if NsoTwDs.myth_mooncake_ice then m6SCS0=true;NsoTwDs.myth_mooncake_ice=false end;iy(NsoTwDs,...)if m6SCS0 then NsoTwDs.myth_mooncake_ice=true end end end)AddComponentPostInit("moisture",function(NUhYw6R4)local Hv=NUhYw6R4.GetWaterproofInventory;function NUhYw6R4:GetWaterproofInventory(...)if NUhYw6R4.myth_waterproofInventory then return true end;return Hv(NUhYw6R4,...)end end)AddComponentPostInit("groomer",function(Ch)local urkh=Ch.BeginChanging;function Ch:BeginChanging(zhzpBSx,...)if Ch.inst.components.hitcher~=nil and Ch.inst.components.hitcher.hitched~=nil and Ch.inst.components.hitcher.hitched:HasTag("laozi_qingniu")then if zhzpBSx and zhzpBSx.components.talker then zhzpBSx.components.talker:Say(STRINGS.CHARACTERS.WILLOW.ACTIONFAIL_GENERIC)end;return false end;return urkh(Ch,zhzpBSx,...)end end) AddComponentPostInit("edible",fun
-[00:12:33]: [string "scripts/components/finiteuses.lua"]:104: attempt to perform arithmetic on field 'total' (a nil value)
+      projectile = card_porj
+      GetProjectile = function - ../mods/workshop-2526778484/modmain.lua:3118
+      oldOnAttackFn_mandrake = function - scripts/components/weapon.lua:104
+      OnAttack_NoDurabilityLoss = function - ../mods/workshop-2039181790/postinit/components/weapon.lua:10
+      RemoveElectric = function - ../mods/workshop-2039181790/postinit/components/weapon.lua:6
+      onattack = function - ../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed.lua:372
+      inst = 128226 - eileen_harrowed_cards(LIMBO) (valid:true)
+      OnAttack = function - ../mods/workshop-3138086996/scripts/mandrake_main.lua:300
+      attackwearmultipliers = table: 00000000732DAC20
+      hitrange = 10
+      _ = table: 00000000732DABD0
+      damage = function - ../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed.lua:447
+   attacker = 128085 - eileen (valid:true)
+   target = 238677 - um_bear_trap (valid:true)
+../mods/workshop-2855233479/modmain.lua:303 in (local) fn (Lua) <296-331>
+   owner = 128085 - eileen (valid:true)
+   target = 238677 - um_bear_trap (valid:true)
+   equip = 128226 - eileen_harrowed_cards(LIMBO) (valid:true)
+scripts/entityscript.lua:1208 in () ? (Lua) <1195-1222>
+   self (valid:true) =
+      rope_bridge_deploy_string_colour_boards = table: 00000000752996C0
+      SetCameraDistance = function - scripts/prefabs/player_common.lua:1489
+      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:887
+      skeleton_prefab = skeleton_player
+      player_classified = 128087 - player_classified (valid:true)
+      medal_buff_info_task = PERIODIC 128085: 1.000000
+      AddOrRemoveTag = function - ../mods/workshop-3285271503/scripts/main/extend_tags.lua:127
+      _ta_center_x = net_float (0000000046692050)
+      SetClientAuthoritativeSetting = function - scripts/prefabs/player_common_extensions.lua:967
+      _chinesefestival = net_bool (000000005A1B98E0)
+      net_eileen_task_8_cnt = net_int (00000000A3E58870)
+      ApplySkinOverrides = function - scripts/prefabs/player_common.lua:1646
+      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1473
+      medal_build_list = net_string (000000005A1C0AA0)
+      SetGhostMode = function - scripts/prefabs/player_common.lua:913
+      LoadForReroll_legion = function - ../mods/workshop-1289779251/postinit/prefabs/wilson.lua:164
+      OnWakeUp = function - scripts/prefabs/player_common.lua:1319
+      Transform = Transform (000000003310D7B0)
+      ndnr_gout = 0
+      _daogui_sarira_nightvision_actived = net_bool (000000009B9A0260)
+      EoldSetBank = function - ../mods/workshop-2384660166/userdatahook.lua:139
+      HasOneOfTags = function - ../mods/workshop-3285271503/scripts/main/extend_tags.lua:36
+      net_eileen_task_18_cnt = net_int 
+[04:43:36]: [string "../mods/workshop-2992200942/scripts/prefabs..."]:838: attempt to index field 'combat' (a nil value)
 LUA ERROR stack traceback:
-    scripts/components/finiteuses.lua:104 in (method) GetPercent (Lua) <103-105>
-    scripts/components/inventoryitem_replica.lua:218 in (method) SerializeUsage (Lua) <212-227>
-    scripts/prefabs/inventory_classified.lua:33 in (method) SetSlotItem (Lua) <27-39>
-    scripts/components/inventory_replica.lua:23 in (local) fn (Lua) <23-23>
+    ../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed_cards.lua:838 in (field) target_after_fn (Lua) <833-843>
+    ../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed.lua:236 in (upvalue) target_after_fn (Lua) <233-239>
+    ../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed.lua:480 in () ? (Lua) <447-526>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/components/weapon.lua:94 in (method) GetDamage (Lua) <93-102>
+    ../mods/workshop-2855233479/modmain.lua:303 in (local) fn (Lua) <296-331>
     scripts/entityscript.lua:1208 in () ? (Lua) <1195-1222>
     =(tail call):-1 in ()  (tail) <-1--1>
-    scripts/components/inventory.lua:979 in () ? (Lua) <881-1037>
+    scripts/components/combat.lua:1094 in (upvalue) OldDoAttack (Lua) <1063-1174>
+    ../mods/workshop-1289779251/postinit/components/combat.lua:72 in () ? (Lua) <71-114>
     =(tail call):-1 in ()  (tail) <-1--1>
-    =(tail call):-1 in ()  (tail) <-1--1>
-    scripts/actions.lua:733 in () ? (Lua) <672-736>
-    =(tail call):-1 in ()  (tail) <-1--1>
-    =(tail call):-1 in ()  (tail) <-1--1>
+    ../mods/workshop-1909182187/scripts/medal_hook.lua:3000 in (upvalue) old_combat_DoAttack_fn (Lua) <2993-3001>
+    ../mods/workshop-3054476656/Key_Modules_Of_FWD_IN_PDT/01_00_Player_Prefab_Upgrade/12_player_combat_attack_miss_sys.lua:66 in (method) DoAttack (Lua) <60-67>
+    scripts/actions.lua:1599 in (field) fn (Lua) <1582-1601>
     scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-36>
     scripts/entityscript.lua:1552 in (method) PerformBufferedAction (Lua) <1534-1567>
-    scripts/stategraphs/SGwilson.lua:6322 in (field) fn (Lua) <6315-6324>
+    scripts/stategraphs/SGwilson.lua:8734 in (field) fn (Lua) <8733-8738>
     scripts/stategraph.lua:665 in (method) UpdateState (Lua) <633-677>
     scripts/stategraph.lua:703 in (method) Update (Lua) <696-722>
     scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>
     scripts/update.lua:288 in () ? (Lua) <224-298>
 	
-[00:12:33]: [workshop-2189004162 (Insight)]:	A crash has occured (THIS DOES NOT MEAN IT WAS INSIGHT, THIS IS JUST HERE FOR DEBUGGING PURPOSES)	
-[00:12:33]: [workshop-2189004162 (Insight)]:	Title:	警告！	
-[00:12:33]: [workshop-2189004162 (Insight)]:	Text:	[string "scripts/components/finiteuses.lua"]:104: attempt to perform arithmetic on field 'total' (a nil value)
+[04:43:36]: [workshop-2189004162 (Insight)]:	A crash has occured (THIS DOES NOT MEAN IT WAS INSIGHT, THIS IS JUST HERE FOR DEBUGGING PURPOSES)	
+[04:43:36]: [workshop-2189004162 (Insight)]:	Title:	警告！	
+[04:43:36]: [workshop-2189004162 (Insight)]:	Text:	[string "../mods/workshop-2992200942/scripts/prefabs..."]:838: attempt to index field 'combat' (a nil value)
 LUA ERROR stack traceback:
-    scripts/components/finiteuses.lua:104 in (method) GetPercent (Lua) <103-105>
-    scripts/components/inventoryitem_replica.lua:218 in (method) SerializeUsage (Lua) <212-227>
-    scripts/prefabs/inventory_classified.lua:33 in (method) SetSlotItem (Lua) <27-39>
-    scripts/components/inventory_replica.lua:23 in (local) fn (Lua) <23-23>
+    ../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed_cards.lua:838 in (field) target_after_fn (Lua) <833-843>
+    ../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed.lua:236 in (upvalue) target_after_fn (Lua) <233-239>
+    ../mods/workshop-2992200942/scripts/prefabs/zhijiang_harrowed.lua:480 in () ? (Lua) <447-526>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/components/weapon.lua:94 in (method) GetDamage (Lua) <93-102>
+    ../mods/workshop-2855233479/modmain.lua:303 in (local) fn (Lua) <296-331>
     scripts/entityscript.lua:1208 in () ? (Lua) <1195-1222>
     =(tail call):-1 in ()  (tail) <-1--1>
-    scripts/components/inventory.lua:979 in () ? (Lua) <881-1037>
+    scripts/components/combat.lua:1094 in (upvalue) OldDoAttack (Lua) <1063-1174>
+    ../mods/workshop-1289779251/postinit/components/combat.lua:72 in () ? (Lua) <71-114>
     =(tail call):-1 in ()  (tail) <-1--1>
-    =(tail call):-1 in ()  (tail) <-1--1>
-    scripts/actions.lua:733 in () ? (Lua) <672-736>
-    =(tail call):-1 in ()  (tail) <-1--1>
-    =(tail call):-1 in ()  (tail) <-1--1>
+    ../mods/workshop-1909182187/scripts/medal_hook.lua:3000 in (upvalue) old_combat_DoAttack_fn (Lua) <2993-3001>
+    ../mods/workshop-3054476656/Key_Modules_Of_FWD_IN_PDT/01_00_Player_Prefab_Upgrade/12_player_combat_attack_miss_sys.lua:66 in (method) DoAttack (Lua) <60-67>
+    scripts/actions.lua:1599 in (field) fn (Lua) <1582-1601>
     scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-36>
     scripts/entityscript.lua:1552 in (method) PerformBufferedAction (Lua) <1534-1567>
-    scripts/stategraphs/SGwilson.lua:6322 in (field) fn (Lua) <6315-6324>
+    scripts/stategraphs/SGwilson.lua:8734 in (field) fn (Lua) <8733-8738>
     scripts/stategraph.lua:665 in (method) UpdateState (Lua) <633-677>
     scripts/stategraph.lua:703 in (method) Update (Lua) <696-722>
     scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>
     scripts/update.lua:288 in () ? (Lua) <224-298>
 	
-[00:12:33]: [workshop-2189004162 (Insight)]:	Additionaltext:	此错误可能是由于你启用的某个模组所致！
-客户端日志路径：我的文档\Klei\DoNotStarveTogether\client_log.txt
-你启用了下列模组：
-"史诗血量条" "[API] Modded Skins" "EditedAnims 2024.0403.0024" " Craft From Chest [DST] Fixed" "身在福中不知福" "Mineable Gems" "四/五/六格装备栏（留言适配模组）" "更多地图图标[服务器]" "󰀍 新版樱花林 󰀍" "餐桌/Dining Table" "镰刀" "超级堆叠上限" "童话世界Fairy Tales" "神话：傲来神仙境(第一章：花枝叶茂)" "真神·薇克巴顿" "桌面清理大师" "枝江往事" "晾晒万物(Dry Everything)" "建家党狂喜(more items)" "Wormhole Marks" "Where you are?" "Steamed Collection" "Rope Bridge(绳索桥)" "Quick Work (Updated)" "Pig Gem Queen" "Packbox(modified)" "Fast Trading" "Everyone can drag" "45格物品栏(扩宽装备栏UI)" "0o0洋洋不吃胡萝卜" "0-Infinite endurance 无限耐久" " 超级墙DST" "  彩蛋几率配置-Shang汉化" "西米冰箱" "Sweet House" "Onboard Gardens" "『Albe』物品包" "󰀕 Uncompromising Mode(永不妥协)" "道诡异仙（第二章）" "创世纪" "储藏室 (新地窖)" "󰀕妥协调整" "[DST] 神话书说" "AIP-额外物品包" "XBXY4" "[DST] 棱镜" "缝纫机重做/Sewing Machine" "原武再锻/Weapon Rework" "[DST]海洋传说" "Smarter Ice Flingomatic" "花样风滚草" "富贵险中求(No Danger No Rich)" "[DST] Performance Pack-性能优化包" "Insight" "能力勋章" "掉落堆叠(Drop & Stack)" "Chinese++ Pro" "󰀕 UM永不妥协//汉化" " Simple Health Bar DST" "曼德拉物品" "House" "[DST]标签优化" "负重前行" "负重前行延展包" "禁止树木循环生长" "宠物增强" "a复活按钮和传送按钮a" 	
-[00:12:33]: [workshop-2189004162 (Insight)]:	SERVER_OWNER_HAS_OPTED_IN:	false	
-[00:12:33]: [workshop-2189004162 (Insight)]:	Status:	[Insight]: Crash reporter disabled [Server].	
-[00:12:33]: [workshop-2189004162 (Insight)]:	State:	0	
